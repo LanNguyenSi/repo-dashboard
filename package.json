@@ -10,9 +10,16 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "start": "node dist/cli.js"
+    "start": "node dist/cli.js",
+    "test": "vitest run"
   },
-  "keywords": ["github", "dashboard", "cli", "repos", "developer-tools"],
+  "keywords": [
+    "github",
+    "dashboard",
+    "cli",
+    "repos",
+    "developer-tools"
+  ],
   "author": "Ice <ice@openclaw.ai>",
   "license": "MIT",
   "dependencies": {
@@ -22,7 +29,8 @@
   },
   "devDependencies": {
     "@types/node": "^20.11.0",
-    "typescript": "^5.9.0"
+    "typescript": "^5.9.0",
+    "vitest": "^4.1.0"
   },
   "engines": {
     "node": ">=18"
