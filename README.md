@@ -1,6 +1,8 @@
 # repo-dashboard
 
-GitHub repository dashboard CLI. See all your repos, open PRs, and pipeline status at a glance.
+GitHub repository dashboard **CLI**. See all your repos, open PRs, and pipeline status at a glance — directly in the terminal.
+
+> **Looking for a web UI?** Check out [agent-ops-dashboard](https://github.com/LanNguyenSi/agent-ops-dashboard) — the browser-based version with live agent feed, state store, and activity timeline at [ops.opentriologue.ai](https://ops.opentriologue.ai).
 
 ## Install
 
@@ -21,7 +23,7 @@ repo-dash LanNguyenSi --prs
 # Only CI pipeline status
 repo-dash LanNguyenSi --ci
 
-# JSON output (for scripting)
+# JSON output (for scripting / AI agents)
 repo-dash LanNguyenSi --json
 
 # Show more repos
